@@ -3,13 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.student.punball.MainActivity">
-
+    tools:context="com.example.student.PunBall.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/ball01"
+        android:src="@drawable.crystalball-data-files/ball01.png"
         android:background="#000"
         />
     <TextView
@@ -18,12 +17,5 @@
         android:layout_height="wrap_content"
 
         />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
